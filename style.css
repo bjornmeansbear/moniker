@@ -1,0 +1,49 @@
+
+html, body {
+  font-family: "Helvetica Neue LT Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 160px;
+  line-height: 200px;
+  letter-spacing: 10px;
+  }
+  
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/*******/
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: white url("pattern.png") center top repeat;
+  padding-top: 120px;
+}
+
+.pad {
+  background: white;
+  padding: 100px 40px 120px;
+}
+
+article {
+  width: 800px;
+  margin: 0 auto;
+}
+
+span, a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
